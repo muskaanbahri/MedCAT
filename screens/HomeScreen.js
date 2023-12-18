@@ -145,8 +145,8 @@ const styles = StyleSheet.create({
     marginTop:5
   },
   buttonback:{
-    height: 170,
-    width:170,
+    height: 150,
+    width:150,
     margin:10,
     backgroundColor:"#D6E6FF",
     borderRadius:20,
@@ -157,15 +157,15 @@ const styles = StyleSheet.create({
     height: 100,
     width:100,
     marginBottom:15,
-    marginLeft:43,
-    marginTop:10
+    marginLeft:32,
+    marginTop:5
   },
   icon2: {
     height: 90,
     width:90,
     marginBottom:5,
-    marginLeft:42,
-    marginTop:30
+    marginLeft: 27,
+    marginTop:20
   },
   icontext:{
     textAlign:'center',
