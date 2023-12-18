@@ -20,16 +20,19 @@ const Banner = () => (
 const Welcome = () => (
   <View style={styles.welcome}>
     <Text style={styles.title}>
-      MedCAT- A Medical Consultation & Analysis Tool
+    MedCAT - Medical Consultation and Analysis Tool
     </Text>
-    <Text style={styles.subtitle}>Your one-stop shop for every medical query!</Text>
+    <Text style={styles.subtitle1}> Ask, Analyze, Know
+    </Text>
+     <Text style={styles.subtitle}> 
+     Your Partner in Understanding Health</Text>
   </View>
 );
 
 const Trivia = () => (
   <View style={styles.trivia}>
     <Image source={trivial} style={styles.icon3} />
-    <Text style={styles.triviatext}>Try our MagiCARE AI chatbot that uses affiliated sources like WebMD to resolve all your medical queries!</Text>
+    <Text style={styles.triviatext}>Make informed decisions about your health with MedCAT's comprehensive analysis and reliable information.</Text>
   </View>
 );
 
@@ -41,7 +44,7 @@ const ButtonPair = () => (
     </TouchableOpacity>
     <TouchableOpacity style={styles.buttonback}>
       <Image source={aicon} style={styles.icon2} />
-        <Text style={styles.icontext}>  MagiCARE</Text>
+        <Text style={styles.icontext}>MedCAT</Text>
     </TouchableOpacity>
 
 
@@ -78,6 +81,8 @@ const styles = StyleSheet.create({
     marginTop:20,
     alignItems: 'center',
     justifyContent: 'center',
+    borderColor:'grey',
+    borderWidth:3
   },
   banner:{
     height:'25%',
@@ -114,16 +119,26 @@ const styles = StyleSheet.create({
   title: {
     fontFamily:"Georgia",
     padding:11,
-    fontSize: 20,
-    fontWeight:"699"
+    fontSize: 19,
+    fontWeight:"700"
   },
   subtitle: {
-    fontSize: 16,
+    fontSize: 17,
     paddingLeft:11,
     paddingRight:11,
     paddingBottom:11,
+    
     fontFamily:"Georgia",
     fontStyle:"italic"
+  },
+  subtitle1: {
+    fontSize: 17,
+    paddingLeft:6,
+    paddingRight:11,
+    paddingBottom:0,
+    fontFamily:"Georgia",
+    fontWeight:"bold"
+    
   },
   ParentButton:{
     flexDirection: 'row',
